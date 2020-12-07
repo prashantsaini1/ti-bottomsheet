@@ -1,0 +1,5 @@
+<Alloy>
+	<Window backgroundColor="white" theme="MainTheme">
+		<Button title="    Open  Bottomsheet    " onClick="openBottomSheet"/>
+	</Window>
+</Alloy>

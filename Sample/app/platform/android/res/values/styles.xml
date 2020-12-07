@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="MainTheme" parent="@style/Theme.AppCompat.Light">
+		<item name="colorPrimary">#21cda3</item>
+		<item name="colorPrimaryDark">#1aab88</item>
+		<item name="colorAccent">#009be7</item>
+		<item name='colorControlHighlight'>#eea940</item>
+	</style>
+</resources>

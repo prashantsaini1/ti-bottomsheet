@@ -1,0 +1,39 @@
+<Alloy>
+	<View width="Ti.UI.FILL" height="Ti.UI.SIZE" layout="vertical">
+		<Label color="magenta" text="Label"/>
+		<Label/>
+		<Button top="20" onClick="buttonClick">Button</Button>
+		<Switch id="basicSwitch" value="true" onChange="outputState"/>
+		<Slider id="slider" top="50" min="0" max="100" width="Ti.UI.FILL" value="50" onChange="updateLabel"/>
+		<Label id="label" color="red" text="Move slider above to change me"/>
+		<View width="300" height="120" backgroundColor="aqua"/>
+
+		<ScrollView top="20" scrollType="horizontal" width="Ti.UI.FILL" height="120" layout="horizontal">
+			<View class="view" backgroundColor="teal" left="20"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view"/>
+			<View class="view" backgroundColor="black" right="20"/>
+		</ScrollView>
+
+		<TextField width="Ti.UI.FILL" left="20" right="20" height="Ti.UI.SIZE" hintText="Type in TextField…" color="black"/>
+		<Picker id="picker" selectionIndicator="true" width="Ti.UI.FILL" left="24" right="24" height="48" top="50" onChange="onChange" backgroundColor="blue">
+			<PickerColumn id="column1">
+				<PickerRow title="Bananas"/>
+				<PickerRow title="Strawberries"/>
+				<PickerRow title="Mangos"/>
+				<PickerRow title="Grapes"/>
+			</PickerColumn>
+		</Picker>
+		<ImageView width="200" height="150" top="20" image="https://placeimg.com/640/480/any"/>
+		<TextArea width="Ti.UI.FILL" left="20" right="20" height="120" hintText="Type in TextArea…" color="black"/>
+		<ImageView width="200" height="150" top="20" bottom="20" image="https://placeimg.com/640/480/any"/>
+		<View id="closeView" top="20" bottom="20" width="300" height="120" backgroundColor="black">
+			<Label text="🤖May the force ✨⚔️ be with you🤖\nClick to close me now!" color="white"/>
+		</View>
+	</View>
+</Alloy>
