@@ -2,8 +2,8 @@
 
 ## ti.bottomsheet
 
-## Documentation
------------------------------
+### Module Preview
+[![Titanium Bottomsheet](https://img.youtube.com/vi/o8FL44QYQg4/hqdefault.jpg)](https://youtu.be/o8FL44QYQg4)
 
 ```
 import TiBottomSheet from 'ti.bottomsheet';
