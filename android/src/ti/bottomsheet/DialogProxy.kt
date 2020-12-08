@@ -75,6 +75,7 @@ class DialogProxy: KrollProxy(), KrollProxyListener {
             Properties.VIEW -> {
                 if (nestedScrollView != null && bottomSheetDialog != null) {
                     titaniumView = (value as TiViewProxy).orCreateView
+                    nestedScrollView!!.removeAllViews()
                     nestedScrollView!!.addView(titaniumView?.outerView)
                     nestedScrollView!!.requestLayout()
                     nestedScrollView!!.invalidate()
